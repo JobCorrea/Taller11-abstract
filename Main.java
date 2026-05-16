@@ -11,6 +11,11 @@ public class Main {
         gerente.mostrarDetalles();
         vendedor.mostrarDetalles();
 
-           
+         //## Prueba Error
+        // ERROR: Empleado is abstract; cannot be instantiated
+        //Empleado e = new Empleado();
+
+        Vehiculo moto= new Moto("AKT", 150);
+        moto.mostrarInfo();
     }
 }
